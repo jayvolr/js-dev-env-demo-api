@@ -4,7 +4,8 @@
   "description": "A simple API built in Node and Express hosted on Heroku",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "publish": "git push heroku master"
   },
   "dependencies": {
     "cors": "2.8.1",
