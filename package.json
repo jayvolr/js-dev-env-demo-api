@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "publish": "git push heroku master"
+    "deploy": "git push heroku master"
   },
   "dependencies": {
     "cors": "2.8.1",
